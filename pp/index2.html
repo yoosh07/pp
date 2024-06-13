@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>ysh portfolio</title>
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<style>
+	body{width: 100%; height: 100%;  background-color: #333; margin: 0; padding: 0; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+	ul{list-style: none;}
+	.guidebox{margin: 0 auto;width: 80%;margin-top: 100px; margin-bottom: 100px;}
+	.popol{position: relative;display: flex; width:100%; height: 300px;margin-bottom: 80px; }
+	.popol div{display: inline-block}
+	.popol .imgBox{position: relative; width: 600px; height: 300px; overflow: hidden;border: 2px solid orange;background-color: #fff; }
+	.popol .imgBox img{position: absolute; display: block; width: 80%;left: 50%; transform: translate(-50%);}
+	.popol .imgBox.none {background-color:#333; color:#fff; text-align: center; padding-top: 138px; box-sizing: border-box;}
+	.popol02 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);padding-top: 25px;}
+	.popol04 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);padding-top: 25px;}
+	.popol05 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);padding-top: 25px;}
+	.popol06 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);padding-top: 25px;}
+	.popol08 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);padding-top: 25px;}
+	.popol09 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);padding-top: 25px;}
+	.popol11 .imgBox img{position: absolute; display: block; height: 100%;width: auto; left: 50%; transform: translate(-50%);}
+	.popol13 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);filter: blur(3px);-webkit-filter: blur(3px);}
+	.popol14 .imgBox img{position: absolute; display: block; width: 100%;left: 50%; transform: translate(-50%);}
+	.Tbox{width:700px; height:100%; padding: 20px;box-sizing: border-box; color: #eee;}
+	.Tbox ul li{line-height: 30px;}
+	.Tbox ul li:first-child{font-size: 34px;padding-bottom: 30px;font-weight: bold; color: #fff}
+	.Tbox ul li:last-child{margin-top: 10px;}
+	.Tbox ul li:last-child a {position: relative; display: inline-block; width: 220px; height: 30px; background-color: orange;cursor: pointer;}
+	.Tbox ul li:last-child a:hover{background-color: #FF3F00;}
+	.Tbox ul li:last-child a span{position: absolute; display: inline-block;width: 100%; height: 100%; line-height: 30px; font-size: 16px;text-align: center;color: #000;letter-spacing: -2px; font-weight: bold;margin-left: -2px;}
+	.Tbox ul li.skill {margin-top:30px;display:flex;gap:10px;flex-wrap:wrap;}
+	.Tbox ul li.skill span {display:block;font-size:16px;line-height:17px; padding:2px 4px;background-color: #666;}
+	.PlusLink a {position: relative; display: inline-block; width: 200px; height: 30px; background-color: orange;cursor: pointer;}
+	.PlusLink{margin-top: 10px;}
+	.PlusLink a:hover{background-color: #FF3F00;}
+	.PlusLink a span{position: absolute; display: inline-block;width: 100%; height: 100%; line-height: 30px; font-size: 16px;text-align: center;color: #000;letter-spacing: -2px; font-weight: bold;margin-left: -2px;}
+	.LingH01{line-height:23px!important;}
+</style>
+
+</head>
+
+<body>
+
+<div class="guidebox">
+
+	<div class="popol popol14">
+		<div class="imgBox">
+			<img src="image/po14.png" alt="HLL중앙">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>HLL 개편</li>
+				<li>HLL 내부 8개 사이트 개편 참여</li>
+				<!-- <li>퍼블리싱 30% 참여</li>-->
+				<li>2024.03 - 2024.05</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#javaScript</span><span>#jQuery</span><span>#Figma</span><span>#git</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol13">
+		<div class="imgBox">
+			<img src="image/po13.jpg" alt="qms시스템">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>넷마블 qms시스템 운영</li>
+				<li>넷마블 내부 대시보드 사이트 운영 및 고도화</li>
+				<!-- <li>퍼블리싱 30% 참여</li>-->
+				<li>2022.07 - 2023.12</li>
+				<li class="skill"><span>#vue.js</span><span>#vuetify</span><span>#html</span><span>#css</span><span>#javaScript</span><span>#highcharts</span><span>#Figma</span><span>#git</span><span>#jira</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol12">
+		<div class="imgBox">
+			<img src="image/po12.png" alt="현대커머셜">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>현대커머셜 리뉴얼</li>
+				<li>현대커머셜 홈페이지 리뉴얼</li>
+				<!-- <li>퍼블리싱 30% 참여</li>-->
+				<li>2022.01 - 2022.04</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#javaScript</span><span>#jQuery</span><span>#Photoshop</span><span>#Zeplin</span><span>#pc</span><span>#mobile</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol11">
+		<div class="imgBox">
+			<img src="image/po11.png" alt="땡겨요">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>신한은행 땡겨요</li>
+				<li>땡겨요 앱, admin, 사장님 홈페이지 구축</li>
+				<!-- <li>퍼블리싱 30% 참여</li>-->
+				<li>2021.07 - 2021.12</li>
+				<li class="skill"><span>#WebSquare</span><span>#html</span><span>#css</span><span>#javaScript</span><span>#Photoshop</span><span>#Figma</span><span>#git</span><span>#redmine</span><span>#app</span><span>#pc</span><span>#mobile</span><span>#반응형</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol10">
+		<div class="imgBox none">
+				화면을 확인 할 수 없는 사이트입니다.
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>삼성 sds 인적자원 Visibility 프로젝트</li>
+				<li>내부 과제 퍼블리싱 참여</li>
+				<!-- <li>퍼블리싱 30% 참여</li>-->
+				<li>2020.10 - 2021.06</li>
+				<li class="skill"><span>#vue.js</span><span>#vuetify</span><span>#html</span><span>#css</span><span>#javaScript</span><span>#Photoshop</span><span>#Zeplin</span><span>#git</span><span>#jira</span></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol09">
+		<div class="imgBox">
+				<img src="image/po8.png" alt="신라면세점">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>신라면세점 운영</li>
+				<li>신라면세점 웹사이트, 모바일, 신라트립 등 운영</li>
+				<li>2019.12 - 2020.09</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#javaScript</span><span>#jQuery</span><span>#Photoshop</span><span>#svn</span><span>#app</span><span>#pc</span><span>#mobile</span></li>
+				<!-- <li class="PlusLink"> <a href="https://www.shilladfs.com/estore/kr/ko/?uiel=Desktop" target="_blank"> <span>신라면세점 바로가기</span></a></li> -->
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol07">
+		<div class="imgBox none">
+			화면을 확인 할 수 없는 사이트입니다.
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>CJ올리브네트웍스 운영</li>
+				<li >내부 사이트 요청화면 퍼블리싱</li>
+				<li>2019.11 - 2019.11</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#javaScript</span><span>#jQuery</span><span>#Photoshop</span></li>
+				<!-- <li class="PlusLink"> <a href="https://www.shinhaninvest.com/siw/main/front/view.do" target="_blank"> <span>신한금융투자 바로가기</span></a></li> -->
+				
+			</ul>
+		</div>
+	</div>
+	
+	<div class="popol popol08">
+		<div class="imgBox">
+				<img src="image/po7.png" alt="신한금융투자">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>신한금융투자 운영</li>
+				<li>신한금융투자 웹사이트, 모바일, 알파app 운영</li>
+				<li>2018.10 - 2019.10</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#javaScript</span><span>#jQuery</span><span>#Photoshop</span><span>#svn</span><span>#app</span><span>#pc</span><span>#mobile</span></li>
+				<!-- <li class="PlusLink"> <a href="https://www.shinhaninvest.com/siw/main/front/view.do" target="_blank"> <span>신한금융투자 바로가기</span></a></li> -->
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol06">
+		<div class="imgBox">
+				<img src="image/po6.png" alt="아프로">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>아프로 앱</li>
+				<li>금융권 신규오픈 app, admin, landing페이지</li>
+				<li>2018.07 - 2018.09</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#jQuery</span><span>#Photoshop</span><span>#svn</span><span>#app</span></li>
+				<!-- <li class="PlusLink"> <a href="05apro/landing.html" target="_blank"> <span>시리얼 랜딩페이지</span></a></li> -->
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol05">
+		<div class="imgBox">
+				<img src="image/po5.png" alt="starpos">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>starpos</li>
+				<li>포스기 화면 및 admin 구축</li>
+				<!-- <li>퍼블리싱 100% 참여</li> -->
+				<li>2018.07 - 2018.07</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#jQuery</span><span>#Photoshop</span><span>#반응형</span></li>
+				<li class="PlusLink"></li>
+				
+			</ul>
+		</div>
+	</div>
+
+	<div class="popol popol04">
+		<div class="imgBox">
+				<img src="image/po4.png" alt="한국특수판매공제조합">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>한국특수판매공제조합</li>
+				<li>메인페이지의 컨텐츠영역 조합운영실적 페이지 리뉴얼</li>
+				<!-- <li>퍼블리싱 100% 참여</li> -->
+				<li>2018.06 - 2018.06</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#jQuery</span><span>#Photoshop</span></li>
+				<!-- <li class="PlusLink"> <a href="http://www.kossa.or.kr/index.do" target="_blank"> <span>한국특수판매공제조합 바로가기</span></a></li> -->
+			</ul>
+		</div>
+	</div>
+	
+	<div class="popol popol03">
+		<div class="imgBox">
+				<img src="image/po3.png" alt="한국예술인복지재단">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>한국예술인복지재단</li>
+				<li>메인 리뉴얼 및 GNB, LNB 고도화</li>
+				<!-- <li>퍼블리싱 100% 참여</li> -->
+				<li>2018.05 - 2018.06</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#jQuery</span><span>#Photoshop</span></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="popol popol02">
+		<div class="imgBox">
+				<img src="image/po2.jpg" alt="SK건설 공유 인프라">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>SK건설 공유 인프라 추가개발</li>
+				<li>홈페이지를 메뉴구성을 새로 하면서 고도화</li>
+				<!-- <li>퍼블리싱 100% 참여, 디자인 50% 참여</li> -->
+				<li>기업 내부 사이트</li>
+				<li>2018.03 - 2018.05</li>
+				<li class="skill"><span>#html</span><span>#css</span><span>#jQuery</span><span>#Photoshop</span></li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-- <div class="popol popol01">
+		<div class="imgBox">
+				<img src="image/po1.png" alt="러쉬">
+		</div>
+		<div class="Tbox">
+			<ul>
+				<li>LUSH</li>
+				<li>포트폴리오 용으로 기존 LUSH 사이트를 리뉴얼</li>
+				<li>메인페이지와 세부페이지 4장으로 구성</li>
+				<li>기획, 디자인, 퍼블리싱 100% 참여</li>
+				<li> <a href="01lush/index.html" target="_blank"> <span>포트폴리오 바로가기</span></a></li>
+			</ul>
+		</div>
+	</div> -->
+
+</div>
+
+</body>
+</html>
